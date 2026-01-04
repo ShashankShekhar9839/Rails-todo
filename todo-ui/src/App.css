@@ -1,0 +1,28 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+}
+
+.add-todo {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.add-todo input {
+  padding: 4px;
+}
+
+.todo-wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid gray;
+  width: fit-content;
+  padding: 0 4px;
+}
